@@ -1,0 +1,54 @@
+body {
+    text-decoration: none;
+
+}
+
+.heading {
+    margin: 2rem;
+}
+
+.mode {
+    background-color: black !important;
+    color: white !important;
+
+
+
+}
+
+.mode2 {
+    background-color: black !important;
+    color: white !important;
+
+
+
+}
+
+.hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.ham2 {
+    background-color: black !important;
+    color: white !important;
+}
+
+
+.ham {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    border: none !important;
+}
+
+nav {
+    color: black !important;
+}
+
+.abtbtn a {
+    text-decoration: none;
+    color: white;
+}
