@@ -36,25 +36,34 @@ const weather = async (city) => {
     }
 }
 
-getcity = () => {
-    //  e.preventDefault()
+// const getcity = () => {
+//     //  e.preventDefault()
+//     const c = document.getElementById('searchCity').value
+//     weather(c)
+//     document.getElementById('headcity').innerHTML = c
+
+// }
+
+const clk = document.getElementById('submitcity')
+
+ clk.addEventListener("click" , (e)=>{
+     e.preventDefault()
     const c = document.getElementById('searchCity').value
     weather(c)
     document.getElementById('headcity').innerHTML = c
+ })
 
-}
-
-getcity1 = () => {
+const getcity1 = () => {
    c = "delhi"
     weather("delhi")
     document.getElementById('headcity').innerHTML = c
 }
-getcity2 = () => {
+const getcity2 = () => {
     c = "mumbai"
     weather("mumbai")
     document.getElementById('headcity').innerHTML = c
 }
-getcity3 = () => {
+const getcity3 = () => {
     c = "pune"
     weather("pune")
     document.getElementById('headcity').innerHTML = c
