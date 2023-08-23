@@ -1,3 +1,4 @@
+
 const weather = async (city) => {
 
 
@@ -45,6 +46,35 @@ const weather = async (city) => {
 // }
 
 const clk = document.getElementById('submitcity')
+// const loc = document.getElementById('loc').click()
+
+const getLoc = async () =>{
+
+        const res = await fetch('https://ipapi.co/json')
+    //    const jsres = res.json()
+       res.resolve("PromiseState").then((value) => {
+           console.log(value);
+           // Expected output: 123
+         });
+        //   console.log(res.json());
+
+        // const city = jsres.parse
+       
+        
+    }
+
+if(loc){
+    
+    
+    getLoc()
+
+    console.log(res);
+
+    // weather()
+    // document.getElementById('headcity').innerHTML = c
+
+
+}
 
  clk.addEventListener("click" , (e)=>{
      e.preventDefault()
